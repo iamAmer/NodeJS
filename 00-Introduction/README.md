@@ -26,17 +26,27 @@
 ### Compilation
 - Early, JS was interpreted in the browser, line by line.
 - 2004 when google maps came, it was compiled before running due to the large code base.
-- Modern browsers compile JS using (JIN) just in time compilation, wile the program is running
+- Modern browsers compile JS using (JIN) just in time compilation, wile the program is running.
+- JIN is optimizing the program while running, watching the most repetitive parts of code then converts it to machine code. 
+
+## How NodeJS can access the file system?
+- As we know NodeJs is built with c++, so we can use c++ binding for the low level system features.
+- Binding is making two things "linked together"
 
 ## NodeJS Modules
 - A separate parts of code to each purpose.
+- Separation of concerns.
 - Modules are cached, loaded only once in the memory.
 	- Built in modules
+		- OS, http or fs modules
 	- local modules
+		- which is user-defined
 	- npm modules
-##  
 
 ## References
 - https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
 - https://v8.dev/
+- http://web.stanford.edu/class/cs98si/slides/overview.html
+- https://www.youtube.com/watch?v=d7KHAVaX_Rs
+- https://developer.mozilla.org/en-US/docs/Web
 
