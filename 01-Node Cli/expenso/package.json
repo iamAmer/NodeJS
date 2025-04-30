@@ -1,0 +1,19 @@
+{
+  "name": "expenso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [],
+  "author": "Amer",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "inquirer": "^12.6.0",
+    "papaparse": "^5.5.2"
+  }
+}
